@@ -1,0 +1,19 @@
+
+MAIZE
+
+
+
+
+library(readxl)
+> Maize_2022 <- read_excel("C:/Users/kevin/Downloads/Maize_2022.xlsx")
+There were 18 warnings (use warnings() to see them)
+> View(Maize_2022)
+> View(Maize_2022)
+
+
+> mean(Maize_2022$modal_price)
+[1] 1878.813
+
+
+> var(Maize_2022$modal_price)
+[1] 82314.42
